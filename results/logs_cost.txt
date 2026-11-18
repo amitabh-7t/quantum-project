@@ -1,0 +1,46 @@
+{
+ "hw": "CPU(s):                                  8\nModel name:                              Intel(R) Xeon(R) Processor",
+ "mem": "total        used        free      shared  buff/cache   available\nMem:              15           3           5           0           7          12",
+ "sw": {
+  "python": "3.13.5",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "sklearn": "1.9.1",
+  "pennylane": "0.45.1",
+  "os": "Linux-6.12.113+-x86_64-with-glibc2.41"
+ },
+ "pairwise_vs_state_maxdiff": 1.1102230246251565e-15,
+ "qsvm": {
+  "kernel_pairwise_train_s": 198.40800749699702,
+  "kernel_pairwise_test_s": 208.27791277499637,
+  "kernel_pairwise_peakMB": 1.162856101989746,
+  "n_circuits": 23325,
+  "kernel_statevector_s": 2.0262904330011224,
+  "kernel_statevector_peakMB": 0.2270069122314453,
+  "fit_s": 0.0069791959977010265,
+  "infer_s_excl_kernel": 0.000539351996849291,
+  "per_sample_infer_ms_pairwise": 2603.4739096874546,
+  "model_selection_statevector_s": 4.650685062995763
+ },
+ "svc150": {
+  "gridsearch_s": 1.6007141419977415,
+  "gridsearch_peakMB": 0.2316608428955078,
+  "fit_s": 0.0028885609935969114,
+  "fit_peakMB": 0.014988899230957031,
+  "infer_s": 0.0006287019932642579,
+  "per_sample_infer_ms": 0.007858774915803224
+ },
+ "svc_full": {
+  "n_train": 45681,
+  "fit_s": 1.1176318700017873,
+  "fit_peakMB": 3.489790916442871,
+  "infer_s": 0.29607753599702846,
+  "per_sample_infer_ms": 0.019442969266944343
+ }
+}
+{'n': 50, 'q_statevector_s': 0.4315851190040121, 'q_pairwise_s': 22.15959525499784, 'q_fit_s': 0.002512209990527481, 'q_peakMB': 0.10708904266357422, 'c_fit_s': 0.0028257800004212186, 'c_peakMB': 0.011025428771972656}
+{'n': 100, 'q_statevector_s': 0.889285306999227, 'q_pairwise_s': 87.932135680996, 'q_fit_s': 0.002587299997685477, 'q_peakMB': 0.13431835174560547, 'c_fit_s': 0.005645940997055732, 'c_peakMB': 0.011916160583496094}
+{'n': 200, 'q_statevector_s': 1.7938419980055187, 'q_pairwise_s': None, 'q_fit_s': 0.0037508599925786257, 'q_peakMB': 0.21773624420166016, 'c_fit_s': 0.0026543979911366478, 'c_peakMB': 0.014209747314453125}
+{'n': 400, 'q_statevector_s': 3.5357492409966653, 'q_pairwise_s': None, 'q_fit_s': 0.00375849699776154, 'q_peakMB': 0.3764982223510742, 'c_fit_s': 0.0030665500089526176, 'c_peakMB': 0.023630142211914062}
+{'n': 800, 'q_statevector_s': 7.062684212010936, 'q_pairwise_s': None, 'q_fit_s': 0.004198126000119373, 'q_peakMB': 0.6940555572509766, 'c_fit_s': 0.004665760003263131, 'c_peakMB': 0.04218578338623047}
+DONE

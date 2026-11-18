@@ -1,0 +1,8 @@
+seed 42 ncomp 4 var 0.960 anomalies tr 0.35 te 0.35
+  QSVM L 1 {'C': 0.5, 'cv_f1': np.float64(0.654), 'kernel_s': 0.315, 'prec': 0.643, 'rec': 0.643, 'f1': 0.643, 'auc': 0.766}
+  QSVM L 2 {'C': 0.5, 'cv_f1': np.float64(0.696), 'kernel_s': 0.506, 'prec': 0.528, 'rec': 0.679, 'f1': 0.594, 'auc': 0.766}
+  QSVM L 3 {'C': 0.5, 'cv_f1': np.float64(0.538), 'kernel_s': 0.706, 'prec': 0.39, 'rec': 0.571, 'f1': 0.464, 'auc': 0.595}
+  SVC {'params': {'C': 0.5, 'gamma': 2}, 'cv_f1': np.float64(0.939), 'prec': 0.889, 'rec': 0.857, 'f1': 0.873, 'auc': 0.98}  selected L 2
+iid bootstrap {'mean': np.float64(0.282092784986672), 'lo': np.float64(0.12184096664709694), 'hi': np.float64(0.45498100324140484), 'p': np.float64(0.0005998800239952009)}
+day-block bootstrap {'mean': np.float64(0.27438527333574986), 'lo': np.float64(0.10887581756746176), 'hi': np.float64(0.424345238095238), 'p': np.float64(0.0011997600479904018)}
+n distinct days in test80 31

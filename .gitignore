@@ -1,0 +1,24 @@
+# Kaggle CSVs and generated feature cache
+data/*.csv
+data/*.pkl
+data/*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+
+# Tools / OS
+.DS_Store
+.idea/
+.vscode/
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
